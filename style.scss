@@ -19,3 +19,21 @@ $black:#444;
 $white:#fff;
 $border:.1rem solid $yellow;
 $box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
+
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(val, 1fr));
+    gap: 2rem;
+}
+
+@mixin titleText($titleSize){
+    font-size: $titleSize;
+    text-transform: capitalize;
+    color: black;
+}
+
+@mixin graphText($graphSize){
+    font-size: $graphSize;
+    line-height: 2;
+    color: $light-color;
+}
