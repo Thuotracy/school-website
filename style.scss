@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+$yellow:yellow;
+$light-yellow:rgb(253, 253, 115);
+$light-color:#777;
+$light-white:#eee;
+$black:#444;
+$white:#fff;
+$border:.1rem solid $yellow;
+$box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
