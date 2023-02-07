@@ -22,7 +22,7 @@ $box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
 
 @mixin grid($val){
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(val, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
     gap: 2rem;
 }
 
@@ -36,4 +36,52 @@ $box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
     font-size: $graphSize;
     line-height: 2;
     color: $light-color;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $yellow;
+    }
+}
+
+.head{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $white;
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.head .logo{
+    margin-right: auto;
+    @include titleText(2.5rem);
+    font-weight: bolder;
+}
+
+.head .logo i{
+    color: $yellow;
+}
+
+.navbar a{
+    margin-right: 2rem;
+    @include titleText(2rem);
+}
+
+.navbar a:hover{
+    color: $yellow;
 }
