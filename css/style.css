@@ -30,6 +30,7 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
   background: #fff;
+  box-shadow: 0.5rem 1 rem rgba(0, 0, 0, 0.1);
   padding: 2rem 10%;
   display: flex;
   align-items: center;
@@ -74,4 +75,31 @@ html::-webkit-scrollbar-thumb {
 
 #menu-btn {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .head {
+    padding: 2rem 5%;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .head {
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .head {
+    font-size: 50%;
+  }
+  #menu-btn {
+    display: inline-block;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
