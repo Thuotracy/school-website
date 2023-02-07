@@ -85,3 +85,15 @@ html{
 .navbar a:hover{
     color: $yellow;
 }
+
+#account-btn,
+#menu-btn{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: $black;
+}
+
+#account-btn:hover,
+#menu-btn:hover{
+    color: $yellow;
+}

@@ -57,4 +57,16 @@ html::-webkit-scrollbar-thumb {
 
 .navbar a:hover {
   color: yellow;
+}
+
+#account-btn,
+#menu-btn {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #444;
+}
+
+#account-btn:hover,
+#menu-btn:hover {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
