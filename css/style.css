@@ -64,9 +64,14 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
   font-size: 2.5rem;
   color: #444;
+  margin-left: 2rem;
 }
 
 #account-btn:hover,
 #menu-btn:hover {
   color: yellow;
+}
+
+#menu-btn {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
