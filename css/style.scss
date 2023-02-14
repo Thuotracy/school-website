@@ -132,6 +132,18 @@ html{
     #menu-btn{
         display: inline-block;
     }
+
+    .navbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 30rem;
+        background: $white;
+        $box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+        height: 100%;
+        flex-flow: column;
+        justify-content: center;
+    }
 }
 
 @media (max-width:450px){
