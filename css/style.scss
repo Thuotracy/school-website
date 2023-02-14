@@ -134,14 +134,18 @@ html{
         .navbar{
             position: fixed;
             top: 0;
-            right: 0;
+            right: -105%;
             width: 30rem;
             background: $white;
-            box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
             height: 100%;
             display: flex;
             flex-flow: column;
             justify-content: center;
+
+            &.active{
+                box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+                right: 0;
+            }
 
             a{
                 display: block;
