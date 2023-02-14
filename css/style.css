@@ -91,11 +91,26 @@ html::-webkit-scrollbar-thumb {
   }
 }
 @media (max-width: 768px) {
-  .head {
-    font-size: 50%;
-  }
-  #menu-btn {
+  .head #menu-btn {
     display: inline-block;
+  }
+  .head .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30rem;
+    background: #fff;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .head .navbar a {
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
   }
 }
 @media (max-width: 450px) {
