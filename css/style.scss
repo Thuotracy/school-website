@@ -158,7 +158,17 @@ html{
 }
 
 .account-form form h3{
-    
+    @include titleText(2.5rem);
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.account-form form .box{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    margin: 7rem 0;
+    border: $border;
 }
 
 

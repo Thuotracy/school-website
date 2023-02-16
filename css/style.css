@@ -127,6 +127,22 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
+.account-form form h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: black;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.account-form form .box {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  margin: 7rem 0;
+  border: 0.1rem solid yellow;
+}
+
 @media (max-width: 1200px) {
   .head {
     padding: 2rem 5%;
