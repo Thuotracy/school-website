@@ -97,7 +97,7 @@ html::-webkit-scrollbar-thumb {
   .head .navbar {
     position: fixed;
     top: 0;
-    right: -105%;
+    right: 30%;
     width: 30rem;
     background: #fff;
     height: 100%;
