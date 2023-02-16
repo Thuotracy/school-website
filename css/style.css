@@ -106,6 +106,7 @@ html::-webkit-scrollbar-thumb {
   height: 100%;
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
+  padding: 2rem;
 }
 
 .account-form #close-form {
@@ -118,6 +119,12 @@ html::-webkit-scrollbar-thumb {
 }
 .account-form #close-form:hover {
   transform: rotate(90deg);
+}
+
+.account-form form {
+  border: 0.1rem solid yellow;
+  padding: 2rem;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {

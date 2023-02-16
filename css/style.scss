@@ -135,6 +135,7 @@ html{
     height: 100%;
     box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     z-index: 1200;
+    padding: 2rem;
 }
 
 .account-form #close-form{
@@ -148,6 +149,16 @@ html{
     &:hover{
         transform: rotate(90deg);
     }
+}
+
+.account-form form{
+    border: $border;
+    padding: 2rem;
+    text-align: center;
+}
+
+.account-form form h3{
+    
 }
 
 
