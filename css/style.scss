@@ -122,6 +122,21 @@ html{
     display: none;
 }
 
+.account-form{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35rem;
+    background: $white;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: center;
+    height: 100%;
+    box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+    z-index: 1200;
+}
+
 
 
 
