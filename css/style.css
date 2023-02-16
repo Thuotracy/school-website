@@ -62,7 +62,7 @@ html::-webkit-scrollbar-thumb {
   display: none;
 }
 .navbar #close-navbar:hover {
-  transform: rotate(90degs);
+  transform: rotate(90deg);
 }
 
 .navbar a {
@@ -106,6 +106,18 @@ html::-webkit-scrollbar-thumb {
   height: 100%;
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
+}
+
+.account-form #close-form {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #444;
+}
+.account-form #close-form:hover {
+  transform: rotate(90deg);
 }
 
 @media (max-width: 1200px) {
