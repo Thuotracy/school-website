@@ -78,6 +78,24 @@ html{
     color: $yellow;
 }
 
+.navbar{
+    position: relative;
+
+    #close-navbar{
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        font-size: 4rem;
+        cursor: pointer;
+        color: $black;
+        display: none;
+
+        &:hover{
+            transform: rotate(90degs);
+        }
+    }
+}
+
 .navbar a{
     margin-right: 2rem;
     @include titleText(2rem);
@@ -141,6 +159,10 @@ html{
             display: flex;
             flex-flow: column;
             justify-content: center;
+
+            #close-navbar{
+                display: block;
+            }
 
             &.active{
                 box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
