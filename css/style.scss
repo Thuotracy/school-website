@@ -167,8 +167,32 @@ html{
     width: 100%;
     padding: 1.2rem 1.4rem;
     font-size: 1.6rem;
-    margin: 7rem 0;
+    margin: .7rem 0;
     border: $border;
+}
+
+.account-form form .flex{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.account-form form .flex label{
+    font-size: 1.5rem;
+    color: $light-color;
+    cursor: pointer;
+}
+
+.account-form form .flex a{
+    font-size: 1.5rem;
+    color: $light-color;
+    margin-left: auto;
+
+    &:hover{
+        text-decoration: underline;
+        color: $yellow;
+    }
 }
 
 

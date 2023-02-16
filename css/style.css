@@ -139,8 +139,31 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
-  margin: 7rem 0;
+  margin: 0.7rem 0;
   border: 0.1rem solid yellow;
+}
+
+.account-form form .flex {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.account-form form .flex label {
+  font-size: 1.5rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.account-form form .flex a {
+  font-size: 1.5rem;
+  color: #777;
+  margin-left: auto;
+}
+.account-form form .flex a:hover {
+  text-decoration: underline;
+  color: yellow;
 }
 
 @media (max-width: 1200px) {
