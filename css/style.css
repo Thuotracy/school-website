@@ -120,6 +120,7 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    z-index: 1200;
   }
   .head .navbar #close-navbar {
     display: block;

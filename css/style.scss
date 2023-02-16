@@ -159,6 +159,7 @@ html{
             display: flex;
             flex-flow: column;
             justify-content: center;
+            z-index: 1200;
 
             #close-navbar{
                 display: block;
