@@ -55,6 +55,22 @@ html{
     }
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    border: $border;
+    background: $light-color;
+    color: $yellow;
+    cursor: pointer;
+
+    &:hover{
+        background: $yellow;
+        color: $white;
+    }
+}
+
 .head{
     position: sticky;
     top: 0;

@@ -24,6 +24,21 @@ html::-webkit-scrollbar-thumb {
   background: yellow;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid yellow;
+  background: #777;
+  color: yellow;
+  cursor: pointer;
+}
+.btn:hover {
+  background: yellow;
+  color: #fff;
+}
+
 .head {
   position: sticky;
   top: 0;
