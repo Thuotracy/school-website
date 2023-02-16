@@ -64,6 +64,7 @@ html{
     background: $light-color;
     color: $yellow;
     cursor: pointer;
+    text-transform: capitalize;
 
     &:hover{
         background: $yellow;
@@ -152,6 +153,8 @@ html{
     box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     z-index: 1200;
     padding: 2rem;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .account-form #close-form{
@@ -170,7 +173,6 @@ html{
 .account-form form{
     border: $border;
     padding: 2rem;
-    text-align: center;
 }
 
 .account-form form h3{
