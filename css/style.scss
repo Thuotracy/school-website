@@ -18,7 +18,7 @@ $light-white:#eee;
 $black:#444;
 $white:#fff;
 $border:.1rem solid $yellow;
-$box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
+$box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 
 @mixin grid($val){
     display: grid;
@@ -41,4 +41,48 @@ $box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $yellow;
+    }
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: $white;
+    box-shadow: $box-shadow;
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+
+    .logo{
+        margin-right: auto;
+        @include titleText(2.5rem);
+        font-weight: bolder;
+
+        i{
+            color: $yellow;
+        }
+    }
+
+    .navbar a{
+        margin-right: 2rem;
+        @include titleText(2rem);
+
+        &:hover{
+            color: $yellow;
+        }
+    }
 }
