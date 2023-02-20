@@ -46,6 +46,21 @@ html::-webkit-scrollbar-thumb {
 .header .logo i {
   color: yellow;
 }
+.header .navbar {
+  position: relative;
+}
+.header .navbar #close-navbar {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #444;
+  display: none;
+}
+.header .navbar #close-navbar:hover {
+  transform: rotate(90deg);
+}
 .header .navbar a {
   margin-right: 2rem;
   font-size: 2rem;
@@ -55,13 +70,13 @@ html::-webkit-scrollbar-thumb {
 .header .navbar a:hover {
   color: yellow;
 }
-.header .icons div {
+.header .navbar .icons div {
   cursor: pointer;
   font-size: 2.5rem;
   color: #444;
   margin-left: 1.5rem;
 }
-.header .icons div:hover {
+.header .navbar .icons div:hover {
   color: yellow;
 }
 
@@ -92,6 +107,13 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     flex-flow: column;
     justify-content: center;
+  }
+  .header .navbar #close-navbar {
+    display: block;
+  }
+  .header .navbar.active {
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    right: 0;
   }
   .header .navbar a {
     display: block;

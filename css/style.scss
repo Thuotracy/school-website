@@ -77,14 +77,32 @@ html{
         }
     }
 
-    .navbar a{
-        margin-right: 2rem;
-        @include titleText(2rem);
+    .navbar{
+        position: relative;
 
-        &:hover{
-            color: $yellow;
+        #close-navbar{
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 4rem;
+            cursor: pointer;
+            color: $black;
+            display: none;
+
+            &:hover{
+                transform: rotate(90deg);
+            }
         }
+
+        a{
+            margin-right: 2rem;
+            @include titleText(2rem);
+    
+            &:hover{
+                color: $yellow;
+            }
     }
+    
 
     .icons div{
         cursor: pointer;
@@ -100,6 +118,7 @@ html{
     // #menu-btn{
     //     display: none;
     // }
+}
 }
 
 
@@ -128,6 +147,17 @@ html{
     .header{
         padding: 2rem;
     }
+
+    // .icons div{
+    //     cursor: pointer;
+    //     font-size: 2.5rem;
+    //     color: $black;
+    //     margin-left: 1.5rem;
+
+    //     &:hover{
+    //         color: $yellow;
+    //     }
+    // }
 }
 
 @media(max-width:768px){
@@ -142,11 +172,19 @@ html{
             right: -105%;
             width: 30rem;
             background: $white;
-            // box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
             height: 100%;
             display: flex;
             flex-flow: column;
             justify-content: center;
+
+            #close-navbar{
+                display: block;
+            }
+
+            &.active{
+                box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+                right: 0;
+            }
 
             a{
                 display: block;
@@ -163,3 +201,4 @@ html{
         font-size: 50%;
     }
 }
+
