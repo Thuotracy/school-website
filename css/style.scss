@@ -120,6 +120,34 @@ html{
     }
 }
 
+.account-form{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35rem;
+    background: $white;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: center;
+    height: 100%;
+    box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+    z-index: 1200;
+
+    #close-form{
+        position: absolute;
+        top: 1.5rem;
+        right: 2.5rem;
+        font-size: 4rem;
+        cursor: pointer;
+        color: $black;
+
+        &:hover{
+            transform: rotate(90deg);
+        }
+    }
+}
+
 
 
 
@@ -164,6 +192,7 @@ html{
             display: flex;
             flex-flow: column;
             justify-content: center;
+            z-index: 1200;
 
             #close-navbar{
                 display: block;

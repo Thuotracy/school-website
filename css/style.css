@@ -83,6 +83,32 @@ html::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.account-form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35rem;
+  background: #fff;
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  justify-content: center;
+  height: 100%;
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+.account-form #close-form {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #444;
+}
+.account-form #close-form:hover {
+  transform: rotate(90deg);
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem 5%;
@@ -110,6 +136,7 @@ html::-webkit-scrollbar-thumb {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    z-index: 1200;
   }
   .header .navbar #close-navbar {
     display: block;
