@@ -140,7 +140,7 @@ html{
 .account-form{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 105%;
     width: 35rem;
     background: $white;
     display: flex;
@@ -148,10 +148,14 @@ html{
     gap: 2rem;
     justify-content: center;
     height: 100%;
-    box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     z-index: 1200;
     padding: 2rem;
     text-align: center;
+
+    &.active{
+        box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+        right: 0;
+    }
 
     #close-form{
         position: absolute;

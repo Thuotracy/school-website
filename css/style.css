@@ -102,7 +102,7 @@ html::-webkit-scrollbar-thumb {
 .account-form {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 105%;
   width: 35rem;
   background: #fff;
   display: flex;
@@ -110,10 +110,13 @@ html::-webkit-scrollbar-thumb {
   gap: 2rem;
   justify-content: center;
   height: 100%;
-  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
   padding: 2rem;
   text-align: center;
+}
+.account-form.active {
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+  right: 0;
 }
 .account-form #close-form {
   position: absolute;
