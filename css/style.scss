@@ -169,6 +169,7 @@ html{
     form{
         border: $border;
         padding: 2rem;
+        display: none;
 
         h3{
             @include titleText(2.5rem);
