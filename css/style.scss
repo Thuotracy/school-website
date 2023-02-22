@@ -133,6 +133,7 @@ html{
     height: 100%;
     box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     z-index: 1200;
+    padding: 2rem;
 
     #close-form{
         position: absolute;
@@ -144,6 +145,26 @@ html{
 
         &:hover{
             transform: rotate(90deg);
+        }
+    }
+
+    form{
+        border: $border;
+        padding: 2rem;
+        text-align: center;
+
+        h3{
+            @include titleText(2.5rem);
+            padding-bottom: .5rem;
+            text-transform: uppercase;
+        }
+
+        .box{
+            width: 100%;
+            border: $border;
+            padding: 1.2rem 1.4rem;
+            font-size: 1.6rem;
+            margin: .7rem 0;
         }
     }
 }
