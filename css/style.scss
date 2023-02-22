@@ -64,6 +64,7 @@ html{
     background: $light-yellow;
     color: $yellow;
     cursor: pointer;
+    text-transform: capitalize;
 
     &:hover{
         background: $yellow;
@@ -150,6 +151,7 @@ html{
     box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
     z-index: 1200;
     padding: 2rem;
+    text-align: center;
 
     #close-form{
         position: absolute;
@@ -167,7 +169,6 @@ html{
     form{
         border: $border;
         padding: 2rem;
-        text-align: center;
 
         h3{
             @include titleText(2.5rem);
@@ -205,6 +206,19 @@ html{
                     color: $yellow;
                 }
             }
+        }
+
+        .btn{
+            width: 100%;
+        }
+    }
+
+    .buttons .btn{
+        margin: 0 .8rem;
+
+        &.active{
+            background: $yellow;
+            color: $white;
         }
     }
 }

@@ -33,6 +33,7 @@ html::-webkit-scrollbar-thumb {
   background: rgb(253, 253, 115);
   color: rgb(255, 136, 0);
   cursor: pointer;
+  text-transform: capitalize;
 }
 .btn:hover {
   background: rgb(255, 136, 0);
@@ -112,6 +113,7 @@ html::-webkit-scrollbar-thumb {
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
   z-index: 1200;
   padding: 2rem;
+  text-align: center;
 }
 .account-form #close-form {
   position: absolute;
@@ -127,7 +129,6 @@ html::-webkit-scrollbar-thumb {
 .account-form form {
   border: 0.1rem solid rgb(255, 136, 0);
   padding: 2rem;
-  text-align: center;
 }
 .account-form form h3 {
   font-size: 2.5rem;
@@ -162,6 +163,16 @@ html::-webkit-scrollbar-thumb {
 .account-form form .flex a:hover {
   text-decoration: underline;
   color: rgb(255, 136, 0);
+}
+.account-form form .btn {
+  width: 100%;
+}
+.account-form .buttons .btn {
+  margin: 0 0.8rem;
+}
+.account-form .buttons .btn.active {
+  background: rgb(255, 136, 0);
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
