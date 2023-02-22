@@ -69,56 +69,8 @@ html{
 
     .logo{
         margin-right: auto;
-        @include titleText(2.5rem);
-        font-weight: bolder;
-
-        i{
-            color: $yellow;
-        }
+        @include titleText(2.5rem)
     }
-
-    .navbar{
-        position: relative;
-
-        #close-navbar{
-            position: absolute;
-            top: 1.5rem;
-            right: 2rem;
-            font-size: 4rem;
-            cursor: pointer;
-            color: $black;
-            display: none;
-
-            &:hover{
-                transform: rotate(90deg);
-            }
-        }
-
-        a{
-            margin-right: 2rem;
-            @include titleText(2rem);
-    
-            &:hover{
-                color: $yellow;
-            }
-    }
-    
-
-    .icons div{
-        cursor: pointer;
-        font-size: 2.5rem;
-        color: $black;
-        margin-left: 1.5rem;
-
-        &:hover{
-            color: $yellow;
-        }
-    }
-
-    // #menu-btn{
-    //     display: none;
-    // }
-}
 }
 
 
