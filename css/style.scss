@@ -77,12 +77,29 @@ html{
         }
     }
 
-    .navbar a{
-        margin-right: 2rem;
-        @include titleText(2rem);
+    .navbar {
+        position: relative;
 
-        &:hover{
-            color: $yellow;
+        #close-navbar{
+            position: absolute;
+            top: 1.5rem;
+            right: 2rem;
+            font-size: 4rem;
+            cursor: pointer;
+            color: $black;
+
+            &:hover{
+                transform: rotate(90deg);
+            }
+        }
+
+        a{
+            margin-right: 2rem;
+            @include titleText(2rem);
+    
+            &:hover{
+                color: $yellow;
+            }
         }
     }
 
@@ -95,6 +112,10 @@ html{
         &:hover{
             color: $yellow;
         }
+    }
+
+    #menu-btn{
+        display: none;
     }
 }
 
@@ -124,17 +145,6 @@ html{
     .header{
         padding: 2rem;
     }
-
-    // .icons div{
-    //     cursor: pointer;
-    //     font-size: 2.5rem;
-    //     color: $black;
-    //     margin-left: 1.5rem;
-
-    //     &:hover{
-    //         color: $yellow;
-    //     }
-    // }
 }
 
 @media(max-width:768px){

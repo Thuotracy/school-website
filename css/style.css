@@ -46,6 +46,20 @@ html::-webkit-scrollbar-thumb {
 .header .logo i {
   color: yellow;
 }
+.header .navbar {
+  position: relative;
+}
+.header .navbar #close-navbar {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: #444;
+}
+.header .navbar #close-navbar:hover {
+  transform: rotate(90deg);
+}
 .header .navbar a {
   margin-right: 2rem;
   font-size: 2rem;
@@ -63,6 +77,9 @@ html::-webkit-scrollbar-thumb {
 }
 .header .icons div:hover {
   color: yellow;
+}
+.header #menu-btn {
+  display: none;
 }
 
 @media (max-width: 1200px) {
