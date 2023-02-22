@@ -21,7 +21,22 @@ html::-webkit-scrollbar-track {
   background: transparent;
 }
 html::-webkit-scrollbar-thumb {
-  background: yellow;
+  background: rgb(255, 136, 0);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(255, 136, 0);
+  background: rgb(253, 253, 115);
+  color: rgb(255, 136, 0);
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(255, 136, 0);
+  color: #fff;
 }
 
 .header {
@@ -44,7 +59,7 @@ html::-webkit-scrollbar-thumb {
   font-weight: bolder;
 }
 .header .logo i {
-  color: yellow;
+  color: rgb(255, 136, 0);
 }
 .header .navbar {
   position: relative;
@@ -68,7 +83,7 @@ html::-webkit-scrollbar-thumb {
   color: black;
 }
 .header .navbar a:hover {
-  color: yellow;
+  color: rgb(255, 136, 0);
 }
 .header .icons div {
   cursor: pointer;
@@ -77,7 +92,7 @@ html::-webkit-scrollbar-thumb {
   margin-left: 1.5rem;
 }
 .header .icons div:hover {
-  color: yellow;
+  color: rgb(255, 136, 0);
 }
 .header #menu-btn {
   display: none;
@@ -110,7 +125,7 @@ html::-webkit-scrollbar-thumb {
   transform: rotate(90deg);
 }
 .account-form form {
-  border: 0.1rem solid yellow;
+  border: 0.1rem solid rgb(255, 136, 0);
   padding: 2rem;
   text-align: center;
 }
@@ -123,10 +138,30 @@ html::-webkit-scrollbar-thumb {
 }
 .account-form form .box {
   width: 100%;
-  border: 0.1rem solid yellow;
+  border: 0.1rem solid rgb(255, 136, 0);
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
   margin: 0.7rem 0;
+}
+.account-form form .flex {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.account-form form .flex label {
+  font-size: 1.5rem;
+  color: #777;
+  cursor: pointer;
+}
+.account-form form .flex a {
+  font-size: 1.5rem;
+  color: #777;
+  margin-left: auto;
+}
+.account-form form .flex a:hover {
+  text-decoration: underline;
+  color: rgb(255, 136, 0);
 }
 
 @media (max-width: 1200px) {
