@@ -56,6 +56,7 @@ html::-webkit-scrollbar-thumb {
   font-size: 4rem;
   cursor: pointer;
   color: #444;
+  display: none;
 }
 .header .navbar #close-navbar:hover {
   transform: rotate(90deg);

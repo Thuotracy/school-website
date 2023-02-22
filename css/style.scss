@@ -87,6 +87,7 @@ html{
             font-size: 4rem;
             cursor: pointer;
             color: $black;
+            display: none;
 
             &:hover{
                 transform: rotate(90deg);
