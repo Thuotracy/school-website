@@ -69,7 +69,32 @@ html{
 
     .logo{
         margin-right: auto;
-        @include titleText(2.5rem)
+        @include titleText(2.5rem);
+        font-weight: bolder;
+
+        i{
+            color: $yellow;
+        }
+    }
+
+    .navbar a{
+        margin-right: 2rem;
+        @include titleText(2rem);
+
+        &:hover{
+            color: $yellow;
+        }
+    }
+
+    .icons div{
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: $black;
+        margin-left: 1.5rem;
+
+        &:hover{
+            color: $yellow;
+        }
     }
 }
 
