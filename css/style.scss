@@ -171,6 +171,10 @@ html{
         padding: 2rem;
         display: none;
 
+        &.active{
+            display: block
+        }
+
         h3{
             @include titleText(2.5rem);
             padding-bottom: .5rem;

@@ -131,6 +131,9 @@ html::-webkit-scrollbar-thumb {
   padding: 2rem;
   display: none;
 }
+.account-form form.active {
+  display: block;
+}
 .account-form form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
