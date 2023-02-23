@@ -24,6 +24,10 @@ html::-webkit-scrollbar-thumb {
   background: rgb(255, 136, 0);
 }
 
+section {
+  padding: 5rem 9%;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -182,9 +186,38 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+.footer {
+  background: rgb(253, 253, 115);
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: black;
+  padding: 1rem 0;
+}
+.footer .box-container .box .link {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 0.5rem 0;
+  display: block;
+}
+.footer .box-container .box .link:hover {
+  color: rgb(255, 136, 0);
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem 5%;
+  }
+  section {
+    padding: 3rem 5%;
   }
 }
 @media (max-width: 991px) {
@@ -193,6 +226,9 @@ html::-webkit-scrollbar-thumb {
   }
   .header {
     padding: 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 @media (max-width: 768px) {

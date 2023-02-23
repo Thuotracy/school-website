@@ -55,6 +55,10 @@ html{
     }
 }
 
+section{
+    padding: 5rem 9%;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -238,7 +242,31 @@ html{
 
 
 
+.footer{
+    background: $light-yellow;
 
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+            h3{
+                @include titleText(2.2rem);
+                padding: 1rem 0;
+            }
+
+            .link{
+                @include graphText(1.5rem);
+                padding: .5rem 0;
+                display: block;
+
+                &:hover{
+                    color: $yellow;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -247,6 +275,10 @@ html{
 @media(max-width:1200px){
     .header{
         padding: 2rem 5%;
+    }
+
+    section{
+        padding: 3rem 5%;
     }
 }
 
@@ -257,6 +289,10 @@ html{
 
     .header{
         padding: 2rem;
+    }
+
+    section{
+        padding: 3rem 2rem;
     }
 }
 
