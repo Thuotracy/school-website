@@ -45,7 +45,9 @@ var swiper = new Swiper(".mySwiper", {
       shadowOffset: 20,
       shadowScale: 0.94,
     },
+    loop:true,
     pagination: {
       el: ".swiper-pagination",
+      clickable:true,
     },
   });
