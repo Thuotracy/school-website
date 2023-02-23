@@ -190,23 +190,23 @@ section {
 .home {
   padding: 0;
 }
-.home .slide {
+.home .swiper-slide {
   display: flex;
   align-items: center;
   height: 60rem;
   background-size: cover !important;
   background-position: center !important;
 }
-.home .slide .content {
+.home .swiper-slide .content {
   width: 50rem;
 }
-.home .slide .content h3 {
+.home .swiper-slide .content h3 {
   font-size: 5rem;
   text-transform: capitalize;
   color: black;
   color: #fff;
 }
-.home .slide .content p {
+.home .swiper-slide .content p {
   font-size: 1.6rem;
   line-height: 2;
   color: #777;
