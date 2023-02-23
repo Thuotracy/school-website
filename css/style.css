@@ -201,10 +201,17 @@ section {
   width: 50rem;
 }
 .home .slide .content h3 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: capitalize;
   color: black;
   color: #fff;
+}
+.home .slide .content p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+  padding: 3rem 0;
 }
 
 .footer {

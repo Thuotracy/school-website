@@ -251,8 +251,14 @@ section{
             width: 50rem;
 
             h3{
-                @include titleText(6rem);
+                @include titleText(5rem);
                 color: $white;
+            }
+
+            p{
+                @include graphText(1.6rem);
+                color: $light-white;
+                padding: 3rem 0;
             }
         }
     }
