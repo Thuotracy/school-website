@@ -42,6 +42,7 @@ section {
 .btn:hover {
   background: rgb(255, 136, 0);
   color: #fff;
+  font-size: 2.1rem;
 }
 
 .header {
@@ -210,10 +211,14 @@ section {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
-  font-size: 1.7rem;
-  background-color: rgb(255, 136, 0);
-  color: #fff;
-  margin-right: 0.3rem;
+  font-size: 2.4rem;
+  color: rgb(255, 136, 0);
+  text-align: center;
+}
+.footer .box-container .box .share a:hover {
+  color: white;
+  font-size: 3rem;
+  animation: 0.5s ease-in-out;
 }
 .footer .box-container .box .link {
   font-size: 1.5rem;

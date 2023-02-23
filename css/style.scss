@@ -73,6 +73,7 @@ section{
     &:hover{
         background: $yellow;
         color: $white;
+        font-size: 2.1rem;
     }
 }
 
@@ -265,10 +266,17 @@ section{
                     height: 4.5rem;
                     width: 4.5rem;
                     line-height: 4.5rem;
-                    font-size: 1.7rem;
-                    background-color: $yellow;
-                    color: $white;
-                    margin-right: .3rem
+                    font-size: 2.4rem;
+                    // background-color: $yellow;
+                    color: $yellow;
+                    // margin-right: .2rem;
+                    text-align: center;
+
+                    &:hover{
+                        color: white;
+                        font-size: 3rem;
+                        animation: .5s ease-in-out;
+                    }
                 }
             }
 
