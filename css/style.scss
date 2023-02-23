@@ -252,6 +252,10 @@ section{
             h3{
                 @include titleText(2.2rem);
                 padding: 1rem 0;
+
+                i{
+                    color: $yellow
+                }
             }
 
             .link{
@@ -263,6 +267,19 @@ section{
                     color: $yellow;
                     text-decoration: underline;
                 }
+            }
+
+            p{
+                @include graphText(1.5rem);
+                padding: 1rem 0;
+            }
+
+            .email{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                font-size: 1.6rem;
+                border: $border;
+                margin-bottom: 1rem;
             }
         }
     }
