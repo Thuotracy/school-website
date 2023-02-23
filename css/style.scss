@@ -237,6 +237,27 @@ section{
     }
 }
 
+.home{
+    padding: 0;
+
+    .slide{
+        display: flex;
+        align-items: center;
+        height: 60rem;
+        background-size: cover !important;
+        background-position: center !important;
+
+        .content{
+            width: 50rem;
+
+            h3{
+                @include titleText(6rem);
+                color: $white;
+            }
+        }
+    }
+}
+
 
 
 

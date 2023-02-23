@@ -187,6 +187,26 @@ section {
   color: #fff;
 }
 
+.home {
+  padding: 0;
+}
+.home .slide {
+  display: flex;
+  align-items: center;
+  height: 60rem;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.home .slide .content {
+  width: 50rem;
+}
+.home .slide .content h3 {
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: black;
+  color: #fff;
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
