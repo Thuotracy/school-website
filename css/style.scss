@@ -258,6 +258,20 @@ section{
                 }
             }
 
+            .share{
+                margin-top: 1rem;
+
+                a{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    line-height: 4.5rem;
+                    font-size: 1.7rem;
+                    background-color: $yellow;
+                    color: $white;
+                    margin-right: .3rem
+                }
+            }
+
             .link{
                 @include graphText(1.5rem);
                 padding: .5rem 0;
@@ -282,6 +296,14 @@ section{
                 margin-bottom: 1rem;
             }
         }
+    }
+
+    .credit{
+        text-align: center;
+        margin-top: 3rem;
+        padding: 3rem;
+        @include titleText(2rem);
+        border-top: $border;
     }
 }
 
