@@ -314,6 +314,48 @@ section{
     }
 }
 
+.home-courses{
+    .slide{
+        text-align: center;
+        position: relative;
+        width: 30rem;
+        background: $light-yellow;
+
+        .image{
+            padding: 2rem;
+
+            img{
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+
+            h3{
+                @include titleText(2rem);
+            }
+        }
+
+        .content{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: $black;
+            padding: 2rem 3rem;
+
+            h3{
+                @include titleText(2rem);
+                color: $white;
+            }
+
+            p{
+                @include graphText(1.5rem);
+                padding: 1rem 0;
+                color: $light-white;
+            }
+        }
+    }
+}
+
 
 
 

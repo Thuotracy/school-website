@@ -258,6 +258,46 @@ section {
   color: black;
 }
 
+.home-courses .slide {
+  text-align: center;
+  position: relative;
+  width: 30rem;
+  background: rgb(253, 253, 115);
+}
+.home-courses .slide .image {
+  padding: 2rem;
+}
+.home-courses .slide .image img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.home-courses .slide .image h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+.home-courses .slide .content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #444;
+  padding: 2rem 3rem;
+}
+.home-courses .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+  color: #fff;
+}
+.home-courses .slide .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 1rem 0;
+  color: #eee;
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
