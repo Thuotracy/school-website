@@ -28,6 +28,14 @@ section {
   padding: 5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: black;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -214,6 +222,24 @@ section {
   padding: 3rem 0;
 }
 
+.subjects .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+.subjects .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid rgb(255, 136, 0);
+  cursor: pointer;
+}
+.subjects .box-container .box:hover {
+  width: 180px;
+  height: 180px;
+  transition: 0.5sec ease-in-out;
+  background: rgb(253, 253, 115);
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
@@ -336,5 +362,8 @@ section {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+  .heading {
+    font-size: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
