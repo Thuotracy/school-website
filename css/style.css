@@ -224,7 +224,7 @@ section {
 
 .subjects .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
 }
 .subjects .box-container .box {
@@ -234,8 +234,6 @@ section {
   cursor: pointer;
 }
 .subjects .box-container .box:hover {
-  width: 180px;
-  height: 180px;
   transition: 0.5sec ease-in-out;
   background: rgb(253, 253, 115);
 }
@@ -265,7 +263,7 @@ section {
 }
 .footer .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   gap: 2rem;
 }
 .footer .box-container .box h3 {
@@ -289,7 +287,7 @@ section {
   text-align: center;
 }
 .footer .box-container .box .share a:hover {
-  color: white;
+  color: #fff;
   font-size: 3rem;
   animation: 0.5s ease-in-out;
 }

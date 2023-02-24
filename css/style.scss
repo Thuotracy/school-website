@@ -278,7 +278,7 @@ section{
 
 .subjects{
     .box-container{
-        @include grid(16rem);
+        @include grid(15rem);
 
         .box{
             padding: 3rem 2rem;
@@ -287,8 +287,8 @@ section{
             cursor: pointer;
 
             &:hover{
-                width: 180px;
-                height: 180px;
+                // width: 170px;
+                // height: 180px;
                 transition: .5sec ease-in-out;
                 background: $light-yellow;
 
@@ -324,7 +324,7 @@ section{
     background: $light-yellow;
 
     .box-container{
-        @include grid(25rem);
+        @include grid(23rem);
 
         .box{
             h3{
@@ -350,7 +350,7 @@ section{
                     text-align: center;
 
                     &:hover{
-                        color: white;
+                        color: $white;
                         font-size: 3rem;
                         animation: .5s ease-in-out;
                     }
