@@ -10,6 +10,10 @@
   transition: all 0.2s linear;
 }
 
+img {
+  user-select: none;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -286,7 +290,7 @@ section {
   right: 0;
   left: 0;
   background: rgb(255, 136, 0);
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
 }
 .home-courses .slide .content h3 {
   font-size: 2rem;
@@ -298,7 +302,7 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   color: #eee;
 }
 .home-courses .slide .content .btn:hover {

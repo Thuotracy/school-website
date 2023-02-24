@@ -11,6 +11,10 @@
     transition: all .2s linear;
 }
 
+img{
+    user-select: none;
+}
+
 $yellow:rgb(255, 136, 0);
 $light-yellow:rgb(253, 253, 115);
 $light-color:#777;
@@ -345,7 +349,7 @@ section{
             right: 0;
             left: 0;
             background: $yellow;
-            padding: 2rem 3rem;
+            padding: 1rem 2rem;
 
             h3{
                 @include titleText(2rem);
@@ -354,7 +358,7 @@ section{
 
             p{
                 @include graphText(1.5rem);
-                padding: 1rem 0;
+                padding: .5rem 0;
                 color: $light-white;
             }
 
