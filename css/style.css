@@ -32,6 +32,18 @@ section {
   padding: 5rem 9%;
 }
 
+.heading-link {
+  text-align: center;
+  background: url(../images/heading-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heading-link h3 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: black;
+}
+
 .heading {
   text-align: center;
   margin-bottom: 3rem;

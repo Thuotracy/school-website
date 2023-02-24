@@ -63,6 +63,17 @@ section{
     padding: 5rem 9%;
 }
 
+.heading-link{
+    text-align: center;
+    background: url(../images/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h3{
+        @include titleText(4rem)
+    }
+}
+
 .heading{
     text-align: center;
     margin-bottom: 3rem;
