@@ -399,7 +399,7 @@ section{
     gap: 3rem;
 
     .image{
-        flex: 1 1 10rem;
+        flex: 1 1 40rem;
 
         img{
             width: 100%;
@@ -409,16 +409,41 @@ section{
     .content{
         flex: 1 1 40rem;
 
-        .about .title{
+        .about-title{
             @include titleText(2.5rem);
         }
 
         p{
             @include graphText(1.5rem);
-            padding: 3rem 0;
-        }
+            padding: 1rem 0;
+        }      
 
-        .
+        .icons-container{
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+            .icons{
+                flex: 1 1 16rem;
+                text-align: center;
+                padding: 3rem 2rem;
+
+                img{
+                    height: 7rem;
+                    margin-bottom: .5rem;
+                }
+
+                // h3{
+                //     padding: .5rem 0;
+                //     @include titleText(2rem)
+                // }
+
+                // span{
+                //     @include graphText(1.5rem)
+                // }
+            }
+        }
     }
 }
 

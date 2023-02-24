@@ -339,7 +339,7 @@ section {
   gap: 3rem;
 }
 .about .image {
-  flex: 1 1 10rem;
+  flex: 1 1 40rem;
 }
 .about .image img {
   width: 100%;
@@ -347,7 +347,7 @@ section {
 .about .content {
   flex: 1 1 40rem;
 }
-.about .content .about .title {
+.about .content .about-title {
   font-size: 2.5rem;
   text-transform: capitalize;
   color: black;
@@ -356,7 +356,22 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
-  padding: 3rem 0;
+  padding: 1rem 0;
+}
+.about .content .icons-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about .content .icons-container .icons {
+  flex: 1 1 16rem;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.about .content .icons-container .icons img {
+  height: 7rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer {
