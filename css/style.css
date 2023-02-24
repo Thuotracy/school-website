@@ -239,6 +239,26 @@ section {
   transition: 0.5sec ease-in-out;
   background: rgb(253, 253, 115);
 }
+.subjects .box-container .box:hover h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+.subjects .box-container .box img {
+  height: 8rem;
+  margin-bottom: 0.5rem;
+}
+.subjects .box-container .box h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black;
+  padding: 0.5rem 0;
+}
+.subjects .box-container .box p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black;
+}
 
 .footer {
   background: rgb(253, 253, 115);

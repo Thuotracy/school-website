@@ -292,6 +292,23 @@ section{
                 transition: .5sec ease-in-out;
                 background: $light-yellow;
 
+                h3{
+                    @include titleText(2rem); 
+                }
+            }
+
+            img{
+                height: 8rem;
+                margin-bottom: .5rem;
+            }
+
+            h3{
+                @include titleText(1.5rem);
+                padding: .5rem 0;   
+            }
+
+            p{
+                @include titleText(1.5rem);
             }
         }
     }
