@@ -392,6 +392,36 @@ section{
     }
 }
 
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .image{
+        flex: 1 1 10rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .content{
+        flex: 1 1 40rem;
+
+        .about .title{
+            @include titleText(2.5rem);
+        }
+
+        p{
+            @include graphText(1.5rem);
+            padding: 3rem 0;
+        }
+
+        .
+    }
+}
+
 
 
 

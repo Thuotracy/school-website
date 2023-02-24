@@ -332,6 +332,33 @@ section {
   background: #444;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.about .image {
+  flex: 1 1 10rem;
+}
+.about .image img {
+  width: 100%;
+}
+.about .content {
+  flex: 1 1 40rem;
+}
+.about .content .about .title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: black;
+}
+.about .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  padding: 3rem 0;
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
