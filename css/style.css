@@ -43,6 +43,17 @@ section {
   text-transform: capitalize;
   color: black;
 }
+.heading-link p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #777;
+}
+.heading-link p a {
+  color: rgb(255, 136, 0);
+}
+.heading-link p a:hover {
+  text-decoration: underline;
+}
 
 .heading {
   text-align: center;

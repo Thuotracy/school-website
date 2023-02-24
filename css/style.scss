@@ -70,7 +70,19 @@ section{
     background-position: center;
 
     h3{
-        @include titleText(4rem)
+        @include titleText(4rem);
+    }
+
+    p{
+        @include graphText(2rem);
+
+        a{
+            color: $yellow;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
 
