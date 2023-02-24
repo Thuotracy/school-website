@@ -320,6 +320,11 @@ section{
         position: relative;
         width: 30rem;
         background: $light-yellow;
+        overflow: hidden;
+
+        &:hover .content{
+            bottom: 0;
+        }
 
         .image{
             padding: 2rem;
@@ -336,10 +341,10 @@ section{
 
         .content{
             position: absolute;
-            bottom: 0;
+            bottom: 100%;
             right: 0;
             left: 0;
-            background: $black;
+            background: $yellow;
             padding: 2rem 3rem;
 
             h3{
@@ -351,6 +356,10 @@ section{
                 @include graphText(1.5rem);
                 padding: 1rem 0;
                 color: $light-white;
+            }
+
+            .btn:hover{
+                background: $black;
             }
         }
     }

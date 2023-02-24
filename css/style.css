@@ -263,6 +263,10 @@ section {
   position: relative;
   width: 30rem;
   background: rgb(253, 253, 115);
+  overflow: hidden;
+}
+.home-courses .slide:hover .content {
+  bottom: 0;
 }
 .home-courses .slide .image {
   padding: 2rem;
@@ -278,10 +282,10 @@ section {
 }
 .home-courses .slide .content {
   position: absolute;
-  bottom: 0;
+  bottom: 100%;
   right: 0;
   left: 0;
-  background: #444;
+  background: rgb(255, 136, 0);
   padding: 2rem 3rem;
 }
 .home-courses .slide .content h3 {
@@ -296,6 +300,9 @@ section {
   color: #777;
   padding: 1rem 0;
   color: #eee;
+}
+.home-courses .slide .content .btn:hover {
+  background: #444;
 }
 
 .footer {
