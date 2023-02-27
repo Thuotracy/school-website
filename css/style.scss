@@ -60,7 +60,7 @@ html{
 }
 
 section{
-    padding: 5rem 9%;
+    padding: 5rem 10%;
 }
 
 .heading-link{
@@ -410,12 +410,12 @@ section{
         flex: 1 1 40rem;
 
         .about-title{
-            @include titleText(2.5rem);
+            @include titleText(3rem);
         }
 
         p{
             @include graphText(1.5rem);
-            padding: 1rem 0;
+            padding: .5rem 0;
         }      
 
         .icons-container{
@@ -425,23 +425,25 @@ section{
             gap: 1.5rem;
 
             .icons{
-                flex: 1 1 16rem;
+                flex: 1 1 15rem;
                 text-align: center;
-                padding: 3rem 2rem;
+                padding: 2rem 1rem;
+                border: $border;
+                background: $light-yellow;
 
                 img{
-                    height: 7rem;
-                    margin-bottom: .5rem;
+                    height: 5rem;
+                    margin-bottom: .3rem;
                 }
 
-                // h3{
-                //     padding: .5rem 0;
-                //     @include titleText(2rem)
-                // }
+                h3{
+                    padding: .3rem 0;
+                    @include titleText(2rem)
+                }
 
-                // span{
-                //     @include graphText(1.5rem)
-                // }
+                span{
+                    @include graphText(1.5rem)
+                }
             }
         }
     }
