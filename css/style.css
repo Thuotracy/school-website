@@ -426,6 +426,16 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+.teachers .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+.teachers .slide .content span {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
 
 .footer {
   background: rgb(253, 253, 115);
