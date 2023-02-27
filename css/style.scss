@@ -561,6 +561,26 @@ section{
         @include grid(30rem);
 
         .box{
+
+            &:hover .image {
+                img{
+                transform: scale(1.1);
+                }
+
+                h3{
+                    @include titleText(1.5rem);
+                    position: absolute;
+                    top: 1rem;
+                    left: 1.5rem;
+                    padding: .5rem 1.5rem;
+                    background: $white;
+                }
+            }
+
+            &.hide{
+                display: none;
+            }
+
             .image{
                 height: 25rem;
                 overflow: hidden;
@@ -572,14 +592,7 @@ section{
                     object-fit: cover;
                 }   
 
-                h3{
-                    @include titleText(1.5rem);
-                    position: absolute;
-                    top: 1rem;
-                    left: 1.5rem;
-                    padding: .5rem 1.5rem;
-                    background: $white;
-                }
+               
             }
 
             .content{
@@ -603,9 +616,23 @@ section{
                     margin-top: 2rem;
                     padding: 2rem;
                     border-top: $border;
+
+                    span{
+                        @include titleText(1.5rem);
+
+                        i{
+                            color: $yellow;
+                            padding-right: .5rem;
+                        }
+                    }
                 }
             }
         }
+    }
+
+    .load-more{
+        margin-top: 2rem;
+        text-align: center;
     }
 }
 
