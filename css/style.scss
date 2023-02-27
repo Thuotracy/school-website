@@ -640,13 +640,72 @@ section{
 .contact{
     .icons-container{
         @include grid(25rem);
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
         .icons{
             text-align: center;
             padding: 3rem 2rem;
             border: $border;
             background: $light-yellow;
+
+            i{
+                height: 6rem;
+                width: 6rem;
+                line-height: 6rem;
+                font-size: 2rem;
+                border-radius: 50%;
+                margin-bottom: .5rem;
+                color: $white;
+                background: $yellow;
+            }
+
+            h3{
+                @include titleText(2rem);
+                padding: .5rem 0;
+            }
+
+            p{
+                @include graphText(1.5rem);
+            }
+        }
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .image{
+            flex: 1 1 40rem;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        form{
+            flex: 1 1 40rem;
+            border: $border;
+            padding: 2rem;
+
+            h3{
+                @include titleText(2.5rem);
+                padding-bottom: 1rem;
+            }
+
+            .box{
+                width: 100%;
+                padding: 1.2rem 1.4rem;
+                border: $border;
+                font-size: 1.6rem;
+                margin: .7rem 0;
+            }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
         }
     }
 }
