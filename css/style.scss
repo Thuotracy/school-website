@@ -519,6 +519,7 @@ section{
             position: relative;
             background: $light-yellow;
             border: $border;
+            margin-bottom: 3rem;
 
             &::before{
                 content: '';
@@ -528,6 +529,9 @@ section{
                 transform: translateX(-50%) rotate(45deg);
                 background: $light-yellow;
                 border-bottom: $border;
+                border-right: $border;
+                height: 2rem;
+                width: 2rem;
             }
         }
     }

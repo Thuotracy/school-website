@@ -447,6 +447,7 @@ section {
   position: relative;
   background: rgb(253, 253, 115);
   border: 0.1rem solid rgb(255, 136, 0);
+  margin-bottom: 3rem;
 }
 .reviews .slide p::before {
   content: "";
@@ -456,6 +457,9 @@ section {
   transform: translateX(-50%) rotate(45deg);
   background: rgb(253, 253, 115);
   border-bottom: 0.1rem solid rgb(255, 136, 0);
+  border-right: 0.1rem solid rgb(255, 136, 0);
+  height: 2rem;
+  width: 2rem;
 }
 
 .footer {
