@@ -450,6 +450,18 @@ section{
         text-align: center;
         width: 30rem;
 
+        &:hover{
+            .image{
+                img{
+                    background: $yellow;
+                }
+
+                .share{
+                    bottom: 0;
+                }
+            }
+        }
+
         .image{
             position: relative;
             overflow: hidden;
@@ -461,11 +473,11 @@ section{
 
             .share{
                 position: absolute;
-                bottom: 0;
+                bottom: -10rem;
                 left: 0;
                 right: 0;
                 background: rgba(0,0,0,.8);
-                padding: 3rem;
+                padding: 2rem;
 
                 a{
                     font-size: 2rem;
@@ -478,6 +490,13 @@ section{
                     }
                 }
             }
+        }
+
+        .content{
+            display: flex;
+            padding-top: 1rem;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }

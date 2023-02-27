@@ -389,6 +389,12 @@ section {
   text-align: center;
   width: 30rem;
 }
+.teachers .slide:hover .image img {
+  background: rgb(255, 136, 0);
+}
+.teachers .slide:hover .image .share {
+  bottom: 0;
+}
 .teachers .slide .image {
   position: relative;
   overflow: hidden;
@@ -399,11 +405,11 @@ section {
 }
 .teachers .slide .image .share {
   position: absolute;
-  bottom: 0;
+  bottom: -10rem;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.8);
-  padding: 3rem;
+  padding: 2rem;
 }
 .teachers .slide .image .share a {
   font-size: 2rem;
@@ -413,6 +419,12 @@ section {
 .teachers .slide .image .share a:hover {
   color: rgb(255, 136, 0);
   font-size: 2.5rem;
+}
+.teachers .slide .content {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer {
