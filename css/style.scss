@@ -345,7 +345,6 @@ section{
     .slide{
         text-align: center;
         position: relative;
-        width: 30rem;
         background: $light-yellow;
         overflow: hidden;
 
@@ -440,6 +439,43 @@ section{
 
                 span{
                     @include graphText(1.5rem)
+                }
+            }
+        }
+    }
+}
+
+.teachers{
+    .slide{
+        text-align: center;
+        width: 30rem;
+
+        .image{
+            position: relative;
+            overflow: hidden;
+
+            img{
+                background: $light-yellow;
+                width: 100%;
+            }
+
+            .share{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(0,0,0,.8);
+                padding: 3rem;
+
+                a{
+                    font-size: 2rem;
+                    margin: 0 1rem;
+                    color: $white;
+
+                    &:hover{
+                        color: $yellow;
+                        font-size: 2.5rem;
+                    }
                 }
             }
         }

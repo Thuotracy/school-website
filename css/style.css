@@ -288,7 +288,6 @@ section {
 .home-courses .slide {
   text-align: center;
   position: relative;
-  width: 30rem;
   background: rgb(253, 253, 115);
   overflow: hidden;
 }
@@ -384,6 +383,36 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
+}
+
+.teachers .slide {
+  text-align: center;
+  width: 30rem;
+}
+.teachers .slide .image {
+  position: relative;
+  overflow: hidden;
+}
+.teachers .slide .image img {
+  background: rgb(253, 253, 115);
+  width: 100%;
+}
+.teachers .slide .image .share {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3rem;
+}
+.teachers .slide .image .share a {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.teachers .slide .image .share a:hover {
+  color: rgb(255, 136, 0);
+  font-size: 2.5rem;
 }
 
 .footer {
