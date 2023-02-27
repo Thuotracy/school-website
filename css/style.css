@@ -448,6 +448,7 @@ section {
   border: 0.1rem solid rgb(255, 136, 0);
   margin-bottom: 3rem;
   padding: 2rem;
+  user-select: none;
 }
 .reviews .slide p::before {
   content: "";

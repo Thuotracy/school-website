@@ -520,6 +520,7 @@ section{
             border: $border;
             margin-bottom: 3rem;
             padding: 2rem;
+            user-select: none;
 
             &::before{
                 content: '';
