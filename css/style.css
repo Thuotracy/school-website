@@ -438,7 +438,6 @@ section {
 
 .reviews .slide {
   text-align: center;
-  width: 30rem;
 }
 .reviews .slide p {
   font-size: 1.5rem;
@@ -472,6 +471,10 @@ section {
   text-transform: capitalize;
   color: black;
   padding: 0.5rem 0;
+}
+.reviews .slide .stars {
+  font-size: 1.5rem;
+  color: rgb(255, 136, 0);
 }
 
 .footer {

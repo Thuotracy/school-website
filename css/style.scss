@@ -512,7 +512,6 @@ section{
 .reviews{
     .slide{
         text-align: center;
-        width: 30rem;
 
         p{
             @include graphText(1.5rem);
@@ -545,6 +544,11 @@ section{
         h3{
             @include titleText(1.7rem);
             padding: .5rem 0;
+        }
+
+        .stars{
+            font-size: 1.5rem;
+            color: $yellow;
         }
     }
 }
