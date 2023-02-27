@@ -478,6 +478,56 @@ section {
   color: rgb(255, 136, 0);
 }
 
+.courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.courses .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+.courses .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.courses .box-container .box .image h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: black;
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+}
+.courses .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+  border: 0.1rem solid rgb(255, 136, 0);
+}
+.courses .box-container .box .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+.courses .box-container .box .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+.courses .box-container .box .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-top: 0.1rem solid rgb(255, 136, 0);
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
