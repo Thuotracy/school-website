@@ -549,7 +549,7 @@ section {
 
 .contact .icons-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
 }
@@ -611,8 +611,57 @@ section {
   margin: 0.7rem 0;
 }
 .contact .row form textarea {
-  height: 15rem;
+  height: 13rem;
   resize: none;
+}
+
+.faq .accordion-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.faq .accordion-container .accordion {
+  flex: 1 1 40rem;
+  border: 0.1rem solid rgb(255, 136, 0);
+}
+.faq .accordion-container .accordion.active .accordion-heading {
+  background: rgb(255, 136, 0);
+}
+.faq .accordion-container .accordion.active .accordion-heading h3 {
+  color: #fff;
+}
+.faq .accordion-container .accordion.active .accordion-heading i {
+  color: #fff;
+  transform: rotate(180deg);
+}
+.faq .accordion-container .accordion.active .accordion-content {
+  display: block;
+}
+.faq .accordion-container .accordion .accordion-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+.faq .accordion-container .accordion .accordion-heading h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: black;
+}
+.faq .accordion-container .accordion .accordion-heading i {
+  font-size: 2rem;
+  color: rgb(255, 136, 0);
+}
+.faq .accordion-container .accordion .accordion-content {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  border-top: 0.1rem solid rgb(255, 136, 0);
+  display: none;
 }
 
 .footer {
