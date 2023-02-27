@@ -637,7 +637,19 @@ section{
 }
 
 
+.contact{
+    .icons-container{
+        @include grid(25rem);
+        margin-bottom: 2rem;
 
+        .icons{
+            text-align: center;
+            padding: 3rem 2rem;
+            border: $border;
+            background: $light-yellow;
+        }
+    }
+}
 
 
 

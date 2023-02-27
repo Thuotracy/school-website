@@ -547,6 +547,19 @@ section {
   text-align: center;
 }
 
+.contact .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.contact .icons-container .icons {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 0.1rem solid rgb(255, 136, 0);
+  background: rgb(253, 253, 115);
+}
+
 .footer {
   background: rgb(253, 253, 115);
 }
