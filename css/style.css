@@ -348,7 +348,7 @@ section {
   flex: 1 1 40rem;
 }
 .about .content .about-title {
-  font-size: 3rem;
+  font-size: 4rem;
   text-transform: capitalize;
   color: black;
 }
@@ -360,12 +360,11 @@ section {
 }
 .about .content .icons-container {
   margin-top: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
 }
 .about .content .icons-container .icons {
-  flex: 1 1 15rem;
   text-align: center;
   padding: 2rem 1rem;
   border: 0.1rem solid rgb(255, 136, 0);
@@ -512,5 +511,8 @@ section {
   }
   .heading {
     font-size: 3rem;
+  }
+  .about .content .about-title {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

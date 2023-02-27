@@ -410,7 +410,7 @@ section{
         flex: 1 1 40rem;
 
         .about-title{
-            @include titleText(3rem);
+            @include titleText(4rem);
         }
 
         p{
@@ -420,12 +420,9 @@ section{
 
         .icons-container{
             margin-top: 1rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+            @include grid(15rem);
 
             .icons{
-                flex: 1 1 15rem;
                 text-align: center;
                 padding: 2rem 1rem;
                 border: $border;
@@ -603,6 +600,10 @@ section{
 
     .heading{
         font-size: 3rem;
+    }
+
+    .about .content .about-title{
+        font-size: 4rem;
     }
 }
 
