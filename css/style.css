@@ -448,6 +448,7 @@ section {
   background: rgb(253, 253, 115);
   border: 0.1rem solid rgb(255, 136, 0);
   margin-bottom: 3rem;
+  padding: 2rem;
 }
 .reviews .slide p::before {
   content: "";
@@ -460,6 +461,17 @@ section {
   border-right: 0.1rem solid rgb(255, 136, 0);
   height: 2rem;
   width: 2rem;
+}
+.reviews .slide img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+.reviews .slide h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: black;
+  padding: 0.5rem 0;
 }
 
 .footer {
