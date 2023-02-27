@@ -448,7 +448,6 @@ section{
 .teachers{
     .slide{
         text-align: center;
-        width: 30rem;
 
         &:hover{
             .image{
@@ -504,6 +503,31 @@ section{
 
             span{
                 @include graphText(1.5rem);
+            }
+        }
+    }
+}
+
+
+.reviews{
+    .slide{
+        text-align: center;
+        width: 30rem;
+
+        p{
+            @include graphText(1.5rem);
+            position: relative;
+            background: $light-yellow;
+            border: $border;
+
+            &::before{
+                content: '';
+                position: absolute;
+                bottom: -1.2rem;
+                left: 50%;
+                transform: translateX(-50%) rotate(45deg);
+                background: $light-yellow;
+                border-bottom: $border;
             }
         }
     }

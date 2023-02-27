@@ -387,7 +387,6 @@ section {
 
 .teachers .slide {
   text-align: center;
-  width: 30rem;
 }
 .teachers .slide:hover .image img {
   background: rgb(255, 136, 0);
@@ -435,6 +434,28 @@ section {
   font-size: 1.5rem;
   line-height: 2;
   color: #777;
+}
+
+.reviews .slide {
+  text-align: center;
+  width: 30rem;
+}
+.reviews .slide p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  position: relative;
+  background: rgb(253, 253, 115);
+  border: 0.1rem solid rgb(255, 136, 0);
+}
+.reviews .slide p::before {
+  content: "";
+  position: absolute;
+  bottom: -1.2rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background: rgb(253, 253, 115);
+  border-bottom: 0.1rem solid rgb(255, 136, 0);
 }
 
 .footer {
