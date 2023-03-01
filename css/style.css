@@ -466,6 +466,7 @@ section {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
+  object-fit: cover;
 }
 .reviews .slide h3 {
   font-size: 1.7rem;
