@@ -1,1 +1,17 @@
-# school-website.
+## school-website.
+
+## Description
+This is  school website design.
+
+## Technologies Used
+* HTML
+* CSS
+* SCSS
+* JavaScript
+
+## Live link
+https://thuotracy.github.io/avatar-card-ui/
+
+## Support and contact details
+
+Incase you run into any issues kindly contact me on this Email tracyjacobs775@gmail.com.
