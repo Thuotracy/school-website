@@ -10,7 +10,7 @@ This is  school website design.
 * JavaScript
 
 ## Live link
-https://thuotracy.github.io/avatar-card-ui/
+https://thuotracy.github.io/school-website/home
 
 ## Support and contact details
 
