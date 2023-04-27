@@ -1,4 +1,4 @@
-## school-website.
+## School-website
 
 ## Description
 This is  school website design.
@@ -10,7 +10,7 @@ This is  school website design.
 * JavaScript
 
 ## Live link
-https://thuotracy.github.io/school-website/home
+https://thuotracy.github.io/school-website/home.
 
 ## Support and contact details
 
