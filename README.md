@@ -1,7 +1,7 @@
 ## School-website
 
 ## Description
-This is  school website design
+This is  school website design.
 
 ## Technologies Used
 * HTML
