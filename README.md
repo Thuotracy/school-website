@@ -1,4 +1,4 @@
-## School-website
+## SCHOOL WEBSITE
 ## Description
 
 This is a school website design
