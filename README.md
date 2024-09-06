@@ -1,5 +1,4 @@
 ## SCHOOL WEBSITE
-
 ## Description
 
 This is a school website design
